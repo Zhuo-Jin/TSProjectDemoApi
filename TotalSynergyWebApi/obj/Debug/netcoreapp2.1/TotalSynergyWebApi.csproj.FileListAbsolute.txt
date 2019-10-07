@@ -1,0 +1,15 @@
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\bin\Debug\netcoreapp2.1\TotalSynergyWebApi.deps.json
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\bin\Debug\netcoreapp2.1\TotalSynergyWebApi.runtimeconfig.json
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\bin\Debug\netcoreapp2.1\TotalSynergyWebApi.runtimeconfig.dev.json
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\bin\Debug\netcoreapp2.1\TotalSynergyWebApi.dll
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\obj\Debug\netcoreapp2.1\TotalSynergyWebApi.csprojAssemblyReference.cache
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\obj\Debug\netcoreapp2.1\TotalSynergyWebApi.csproj.CoreCompileInputs.cache
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\obj\Debug\netcoreapp2.1\TotalSynergyWebApi.RazorAssemblyInfo.cache
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\obj\Debug\netcoreapp2.1\TotalSynergyWebApi.RazorAssemblyInfo.cs
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\obj\Debug\netcoreapp2.1\TotalSynergyWebApi.AssemblyInfoInputs.cache
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\obj\Debug\netcoreapp2.1\TotalSynergyWebApi.AssemblyInfo.cs
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\obj\Debug\netcoreapp2.1\TotalSynergyWebApi.RazorTargetAssemblyInfo.cache
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\bin\Debug\netcoreapp2.1\TotalSynergyWebApi.pdb
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\obj\Debug\netcoreapp2.1\TotalSynergyWebApi.dll
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\obj\Debug\netcoreapp2.1\TotalSynergyWebApi.pdb
+C:\Zhuo\Interview\TotalSynergy\TotalSynergyWebApi\TotalSynergyWebApi\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
