@@ -40,6 +40,8 @@ namespace TotalSynergyWebApi.Controllers
                 return BadRequest(ModelState);
             }
 
+            
+
             var contact = await _contactservice.GetObjById(id);
 
             if (contact == null)

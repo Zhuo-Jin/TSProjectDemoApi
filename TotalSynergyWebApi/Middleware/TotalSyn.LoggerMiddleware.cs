@@ -20,27 +20,31 @@ namespace TotalSynergyWebApi.Middleware
             _logger = loggerFactory.CreateLogger<LoggerMiddleware>();
         }
 
-        public async Task InvokeAsync(HttpContext httpContext)
+        public async Task InvokeAsync(HttpContext context)
         {
-            //Read body from the request and log it
-            using (var reader = new StreamReader(httpContext.Request.Body))
+            Stream originalBody = context.Response.Body;
+
+            try
             {
-                var requestBody = reader.ReadToEnd();
-                //loggerFactory.AddFile("Logs/myapp-{Date}.txt");
-                //As this is a middleware below line will make sure it will log each and every request body
-                _logger.LogInformation(requestBody);
+                using (var memStream = new MemoryStream())
+                {
+                    context.Response.Body = memStream;
+
+                    await _next.Invoke(context);
+
+                    memStream.Position = 0;
+                    string responseBody = new StreamReader(memStream).ReadToEnd();
+
+                    this._logger.LogInformation(responseBody);
+
+                    memStream.Position = 0;
+                    await memStream.CopyToAsync(originalBody);
+                }
+
             }
-
-            // log response for error handleing
-            using (var responseBody = new MemoryStream())
+            finally
             {
-                await _next.Invoke(httpContext);
-
-                var response = await FormatResponse(httpContext.Response);
-                //    //if (!response.StartsWith("20")) {
-                //    //    _logger.LogError(response);
-
-                //    //}
+                context.Response.Body = originalBody;
             }
         }
 
